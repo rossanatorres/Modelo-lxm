@@ -9,4 +9,5 @@
 [Periodo infeccioso](https://doi.org/10.7326/M20-0504) 
 
 [Estimación de beta dependiente al tiempo en México (Ávila-Ponce de león)](https://www.medrxiv.org/content/10.1101/2020.05.11.20098517v1.full.pdf)
+
 [Estimación de beta dependiente al tiempo en México (Mena)](https://arxiv.org/pdf/2005.02294.pdf)
