@@ -2,9 +2,9 @@ rm(list=ls())
 library(readxl)
 library(tidyverse)
 
-IRA.COVID <- read_csv("~/Dropbox/Modelo CDMX/Modelo en Github/Data/data_020820.csv")
+load("~/Dropbox/Modelo CDMX/Modelo en Github/Data/data_020820.rda")
 
-COVID <- IRA.COVID %>% 
+COVID <- data_020820 %>% 
   filter(RESDEFIN == "SARS-CoV-2", ENTIDAD == "CIUDAD DE MEXICO") %>% 
   mutate(FECHA_INGRESO = as.Date(FECINGRE, format = "%Y-%m-%d"),
          COUNT =rep(1, nrow(.))) %>%
