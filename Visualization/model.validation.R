@@ -6,14 +6,13 @@ library(lubridate)
 library(tidyverse)
 
 
-IRA.COVID <- read_csv("~/Dropbox/Modelo CDMX/Modelo en Github/Data/data_020820.csv")
-glimpse(IRA.COVID)
+load("~/Dropbox/Modelo CDMX/Modelo en Github/Data/data_020820.rda")
 
 
 days <- seq.Date(as.Date("2020-02-27"),
                  as.Date("2020-02-27") + 90, "day") #91 es el máximo de días que hemos simulado
 
-REPORTADOS <- IRA.COVID %>%
+REPORTADOS <- data_020820 %>%
              filter(RESDEFIN == "SARS-CoV-2", ENTIDAD == "CIUDAD DE MEXICO") %>%
              mutate(FECINGRE= as.Date(FECINGRE, format = "%Y-%m-%d"), 
                     POSITIVO = 1) %>%
