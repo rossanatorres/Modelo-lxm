@@ -11,3 +11,7 @@
 [Estimación de beta dependiente al tiempo en México (Ávila-Ponce de león)](https://www.medrxiv.org/content/10.1101/2020.05.11.20098517v1.full.pdf)
 
 [Estimación de beta dependiente al tiempo en México (Mena)](https://arxiv.org/pdf/2005.02294.pdf)
+
+[Serial interval lognormal](#https://covid-19.conacyt.mx/jspui/bitstream/1000/805/1/102441.pdf)
+
+[El de Nature](https://doi.org/10.1038/s41591-020-0869-5)
